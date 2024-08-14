@@ -1,0 +1,13 @@
+import numpy as np
+a=np.array([1,2,3,4,5])
+print("An Array:\n",a)
+print("sum of array:",np.sum(a))
+print("product of array:",np.prod(a))
+print("standard deviation:",np.std(a))
+print("Variance:",np.var(a))
+print("Mean:",np.mean(a))
+print("Median:",np.median(a))
+print("Minimum Value:",np.min(a))
+print("Max value:",np.max(a))
+print("Min Index:",np.argmin(a))
+print("Max Index:",np.argmax(a))
